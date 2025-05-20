@@ -1,0 +1,110 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+
+    background-image: url('./fon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* толық экранды жабады */
+    background-attachment: fixed;
+    background-color: rgba(255,255,255,0.7); /* ашық қабат */
+    background-blend-mode: lighten; /* текст көріну үшін */
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 2vh; /* биіктігін үлкейтіп қойдым */
+    padding: 80px 20px;
+}
+
+.hero-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 60px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 30px; /* батырмадан төменірек бос орын */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.btn {
+    margin-top: 10px; /* батырма жоғарыдан төменірек түседі */
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.welcome, .menu, .reservation, .reviews {
+    margin: 50px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+.welcome-text {
+    background-color: #800000; /* Бардовый түс */
+    color: #fff; /* Ақ мәтін */
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.welcome-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.welcome-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.welcome-text ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.welcome-text li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.logo {
+    height: 80px; /* қалауыңызша */
+    width: auto;
+}
